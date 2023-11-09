@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+.header {
+    background-color: #fafafa;
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.header-ul li:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.button-maneiro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #62bfe6;
+    border: none;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.button-maneiro:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.section-place {
+    width: 100%;
+    height: 500px;
+    background-image: url(./img/foto-escola.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: scroll;
+    background-color: #313131;
+}
+
+.text-togther {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 100px 0px 0px 100px;
+}
+
+.section-h1, 
+.section-p {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+
