@@ -12,7 +12,9 @@ body {
     justify-content: space-around;
     align-items: center;
 }
-
+.header-nav {
+    display: flex;
+}
 .header-ul {
     list-style: none;
     display: flex;
@@ -21,7 +23,11 @@ body {
     font-weight: bold;
 }
 
-
+.header-ul li {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
 .header-ul li:hover {
     color: green;
     cursor: pointer;
@@ -67,3 +73,30 @@ body {
 }
 
 
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+input {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    
+}
+button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #151515;
+    cursor: pointer;
+    color: white;
+}
+button:hover {
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+}
+
+.pesquisa {
+    display: none;
+}
