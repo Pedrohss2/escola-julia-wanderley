@@ -37,16 +37,21 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    border-radius: 15px;
     background-color: #62bfe6;
     border: none;
     padding: 20px;
     font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 2px;
+    transition: all .1s linear;
 }
 
 .button-maneiro:hover {
     cursor: pointer;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    font-weight: bold;
 }
 .section-place {
     width: 100%;
@@ -142,27 +147,16 @@ button:hover {
 }
 
 .card {
-    background-color: rgba(0, 0, 255, 0.315);
+    background-color: #fffdd0;
     padding: 15px;
-    color: white;
+    color: black;
     box-shadow: rgb(0, 0, 0) 0px 0px 10px;
     margin-top: -25px;
     border-radius: 10px;
     
 }
 .card .barrinha-branca {
-    border-bottom: 8px solid white;
+    border-bottom: 8px solid black;
     max-width: 80px;
 
-}
-.card-azul {
-    background-color: #62bfe6;;
-}
-
-.card-laranja {
-    background-color: #ed9b5f;
-}
-
-.card-amarelo {
-    background-color: #e9cb63;;
 }
