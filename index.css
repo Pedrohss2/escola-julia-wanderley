@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif; 
+    font-family: 'Roboto Mono', monospace;
 }
 
 .header {
@@ -72,7 +72,9 @@ body {
     color: #000000;
 }
 
-
+.section-p {
+    text-transform: lowercase;
+}
 .pesquisa {
     display: flex;
     align-items: center;
@@ -81,22 +83,67 @@ body {
 
 input {
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     
+    box-shadow: rgb(0, 0, 0) 0px 0px 3px;
 }
 button {
     border: none;
     padding: 10px;
-    border-radius: 5px;
-    background-color: #151515;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #00aeffde;
     cursor: pointer;
-    color: white;
+    color: black;
+
 }
 button:hover {
-    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0) 0px 0px 4px;
+}
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 50px;
 }
 
-.pesquisa {
-    display: none;
+.users {
+    font-size: 40px;
+}
+
+.messages {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 8px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    background-color: #00000060;
+    padding: 1px;
+}
+
+.sobre-h1 {
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.article {
+    height: 500px;
 }
